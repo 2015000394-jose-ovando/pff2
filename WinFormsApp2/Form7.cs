@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsApp2
 {
@@ -20,7 +21,7 @@ namespace WinFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
 
-            double valor;
+            double valor,valor2;
 
             if (!double.TryParse(textBox1.Text, out valor))
             {
@@ -28,9 +29,15 @@ namespace WinFormsApp2
                 return;
             }
 
-            double resultado = valor * 0.8361;
+            if (!double.TryParse(textBox3.Text, out valor2))
+            {
+                MessageBox.Show("Ingrese un valor numérico válido.");
+                return;
+            }
 
-            textBox2.Text = "el resultado es " + resultado + "m";
+            double resultado = 0.05 * valor2 * valor2;
+
+            textBox2.Text = "el resultado es " + resultado;
         }
     }
 }

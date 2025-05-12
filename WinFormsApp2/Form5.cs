@@ -28,9 +28,9 @@ namespace WinFormsApp2
                 return;
             }
 
-            double resultado = valor * 6.452;
+            double resultado = 3.1416 * valor * valor;
 
-            textBox2.Text = "el resultado es " + resultado + "cm";
+            textBox2.Text = "el resultado es " + resultado;
         }
     }
 }

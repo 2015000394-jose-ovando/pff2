@@ -34,18 +34,20 @@
             label2 = new Label();
             label1 = new Label();
             button1 = new Button();
+            label4 = new Label();
+            textBox3 = new TextBox();
             SuspendLayout();
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(179, 128);
+            textBox2.Location = new Point(179, 169);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(209, 23);
             textBox2.TabIndex = 7;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(179, 87);
+            textBox1.Location = new Point(179, 82);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(209, 23);
             textBox1.TabIndex = 8;
@@ -53,7 +55,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(13, 136);
+            label3.Location = new Point(13, 177);
             label3.Name = "label3";
             label3.Size = new Size(136, 15);
             label3.TabIndex = 4;
@@ -62,20 +64,20 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(48, 90);
+            label2.Location = new Point(48, 85);
             label2.Name = "label2";
-            label2.Size = new Size(101, 15);
+            label2.Size = new Size(87, 15);
             label2.TabIndex = 5;
-            label2.Text = "ingrese los datos: ";
+            label2.Text = " ingrese la base";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Location = new Point(164, 17);
             label1.Name = "label1";
-            label1.Size = new Size(78, 15);
+            label1.Size = new Size(84, 15);
             label1.TabIndex = 6;
-            label1.Text = "acre a metros";
+            label1.Text = "paralelogramo";
             // 
             // button1
             // 
@@ -87,13 +89,31 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(48, 114);
+            label4.Name = "label4";
+            label4.Size = new Size(90, 15);
+            label4.TabIndex = 5;
+            label4.Text = "ingrese la altura";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(179, 111);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(209, 23);
+            textBox3.TabIndex = 8;
+            // 
             // Form8
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(455, 232);
             Controls.Add(textBox2);
+            Controls.Add(textBox3);
             Controls.Add(textBox1);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -112,5 +132,7 @@
         private Label label2;
         private Label label1;
         private Button button1;
+        private Label label4;
+        private TextBox textBox3;
     }
 }

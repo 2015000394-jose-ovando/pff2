@@ -20,7 +20,7 @@ namespace WinFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
 
-            double valor;
+            double valor,valor2;
 
             if (!double.TryParse(textBox1.Text, out valor))
             {
@@ -28,7 +28,13 @@ namespace WinFormsApp2
                 return;
             }
 
-            double resultado = valor / 10000;
+            if (!double.TryParse(textBox3.Text, out valor2))
+            {
+                MessageBox.Show("Ingrese un valor numérico válido.");
+                return;
+            }
+
+            double resultado = Math.PI * (valor*valor2);
 
             textBox2.Text = "el resultado es " + resultado + "m";
         }

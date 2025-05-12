@@ -75,57 +75,57 @@
             // centimetroAMetrosToolStripMenuItem
             // 
             centimetroAMetrosToolStripMenuItem.Name = "centimetroAMetrosToolStripMenuItem";
-            centimetroAMetrosToolStripMenuItem.Size = new Size(197, 22);
-            centimetroAMetrosToolStripMenuItem.Text = "centimetro a metros";
+            centimetroAMetrosToolStripMenuItem.Size = new Size(180, 22);
+            centimetroAMetrosToolStripMenuItem.Text = "cuadrado";
             centimetroAMetrosToolStripMenuItem.Click += centimetroAMetrosToolStripMenuItem_Click;
             // 
             // metrosAKilometrosToolStripMenuItem
             // 
             metrosAKilometrosToolStripMenuItem.Name = "metrosAKilometrosToolStripMenuItem";
-            metrosAKilometrosToolStripMenuItem.Size = new Size(197, 22);
-            metrosAKilometrosToolStripMenuItem.Text = "metros a kilometros";
+            metrosAKilometrosToolStripMenuItem.Size = new Size(180, 22);
+            metrosAKilometrosToolStripMenuItem.Text = "rectangulo";
             metrosAKilometrosToolStripMenuItem.Click += metrosAKilometrosToolStripMenuItem_Click;
             // 
             // milimetrosAMetrosToolStripMenuItem
             // 
             milimetrosAMetrosToolStripMenuItem.Name = "milimetrosAMetrosToolStripMenuItem";
-            milimetrosAMetrosToolStripMenuItem.Size = new Size(197, 22);
-            milimetrosAMetrosToolStripMenuItem.Text = "milimetros a metros";
+            milimetrosAMetrosToolStripMenuItem.Size = new Size(180, 22);
+            milimetrosAMetrosToolStripMenuItem.Text = " triangulo";
             milimetrosAMetrosToolStripMenuItem.Click += milimetrosAMetrosToolStripMenuItem_Click;
             // 
             // pulgadasACentimetrosToolStripMenuItem
             // 
             pulgadasACentimetrosToolStripMenuItem.Name = "pulgadasACentimetrosToolStripMenuItem";
-            pulgadasACentimetrosToolStripMenuItem.Size = new Size(197, 22);
-            pulgadasACentimetrosToolStripMenuItem.Text = "pulgadas a centimetros";
+            pulgadasACentimetrosToolStripMenuItem.Size = new Size(180, 22);
+            pulgadasACentimetrosToolStripMenuItem.Text = "circulo";
             pulgadasACentimetrosToolStripMenuItem.Click += pulgadasACentimetrosToolStripMenuItem_Click;
             // 
             // piesAMetrosToolStripMenuItem
             // 
             piesAMetrosToolStripMenuItem.Name = "piesAMetrosToolStripMenuItem";
-            piesAMetrosToolStripMenuItem.Size = new Size(197, 22);
-            piesAMetrosToolStripMenuItem.Text = "pies a metros";
+            piesAMetrosToolStripMenuItem.Size = new Size(180, 22);
+            piesAMetrosToolStripMenuItem.Text = "trapecio";
             piesAMetrosToolStripMenuItem.Click += piesAMetrosToolStripMenuItem_Click;
             // 
             // yardasAMetrosToolStripMenuItem
             // 
             yardasAMetrosToolStripMenuItem.Name = "yardasAMetrosToolStripMenuItem";
-            yardasAMetrosToolStripMenuItem.Size = new Size(197, 22);
-            yardasAMetrosToolStripMenuItem.Text = "yardas a metros";
+            yardasAMetrosToolStripMenuItem.Size = new Size(180, 22);
+            yardasAMetrosToolStripMenuItem.Text = "rombo";
             yardasAMetrosToolStripMenuItem.Click += yardasAMetrosToolStripMenuItem_Click;
             // 
             // acresAMetrosToolStripMenuItem
             // 
             acresAMetrosToolStripMenuItem.Name = "acresAMetrosToolStripMenuItem";
-            acresAMetrosToolStripMenuItem.Size = new Size(197, 22);
-            acresAMetrosToolStripMenuItem.Text = "acres a metros";
+            acresAMetrosToolStripMenuItem.Size = new Size(180, 22);
+            acresAMetrosToolStripMenuItem.Text = "paralelogramo";
             acresAMetrosToolStripMenuItem.Click += acresAMetrosToolStripMenuItem_Click;
             // 
             // hectareaAMetrosToolStripMenuItem
             // 
             hectareaAMetrosToolStripMenuItem.Name = "hectareaAMetrosToolStripMenuItem";
-            hectareaAMetrosToolStripMenuItem.Size = new Size(197, 22);
-            hectareaAMetrosToolStripMenuItem.Text = "hectarea a metros";
+            hectareaAMetrosToolStripMenuItem.Size = new Size(180, 22);
+            hectareaAMetrosToolStripMenuItem.Text = "anillo";
             hectareaAMetrosToolStripMenuItem.Click += hectareaAMetrosToolStripMenuItem_Click;
             // 
             // creditosToolStripMenuItem

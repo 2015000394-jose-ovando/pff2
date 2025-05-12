@@ -20,17 +20,23 @@ namespace WinFormsApp2
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            double valor;
+            double valor,valor2;
 
             if (!double.TryParse(textBox1.Text, out valor))
             {
                 MessageBox.Show("Ingrese un valor numérico válido.");
                 return;
             }
+            if (!double.TryParse(textBox3.Text, out valor2))
+            {
+                MessageBox.Show("Ingrese un valor numérico válido.");
+                return;
+            }
 
-            double resultado = valor * 0.01;
 
-            textBox2.Text = "el resultado es " + resultado + "centrimetros";
+            double resultado = 0.5 * valor * valor2;
+
+            textBox2.Text = "el resultado es " + resultado;
         }
     }
 }
